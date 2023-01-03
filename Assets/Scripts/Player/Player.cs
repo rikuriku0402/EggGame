@@ -4,6 +4,12 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
+    public int PlayerHp => _playerHp;
+
+    [SerializeField]
+    [Header("HP")]
+    int _playerHp;
+
     [SerializeField]
     [Header("移動スピード")]
     private float _speed = 5f;
@@ -84,5 +90,11 @@ public class Player : MonoBehaviour
     {
         _isJump = isJump;
         return _isJump;
+    }
+
+    public int PlayerDamage(int playerHp)
+    {
+        _playerHp -= playerHp;
+        return _playerHp;
     }
 }
