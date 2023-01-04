@@ -1,4 +1,4 @@
-public interface IJump
+public interface IJumpable
 {
     void Jump(bool isJump);
 }

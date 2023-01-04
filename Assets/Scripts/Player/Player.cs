@@ -40,9 +40,13 @@ public class Player : MonoBehaviour
 
     private void OnCollisionEnter(Collision collision)
     {
-        if (collision.gameObject.TryGetComponent(out IJump jump))
+        if (collision.gameObject.TryGetComponent(out IJumpable jump))
         {
             jump.Jump(IsJumpBool(false));
+        }
+        else if (collision.gameObject.TryGetComponent(out IGoalable goal))
+        {
+            goal.Goal();
         }
     }
 
