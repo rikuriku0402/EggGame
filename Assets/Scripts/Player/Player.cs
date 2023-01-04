@@ -4,12 +4,6 @@ using UnityEngine;
 
 public class Player : MonoBehaviour
 {
-    public int PlayerHp => _playerHp;
-
-    [SerializeField]
-    [Header("HP")]
-    int _playerHp;
-
     [SerializeField]
     [Header("移動スピード")]
     private float _speed = 5f;
@@ -18,10 +12,19 @@ public class Player : MonoBehaviour
     [Header("ジャンプパワー")]
     private float _jumpPower;
 
+    /// <summary>
+    /// 剛体
+    /// </summary>
     private Rigidbody _rb;
 
-    private float _horizontal, _vertical;
+    /// <summary>
+    /// 縦横の判定をとる変数
+    /// </summary>
+    private float _vertical, _horizontal;
 
+    /// <summary>
+    /// 今ジャンプ中か判定する変数
+    /// </summary>
     private bool _isJump;
 
     void Start()
@@ -52,7 +55,10 @@ public class Player : MonoBehaviour
         }
     }
 
-    void GetKey()
+    /// <summary>
+    /// 常にキーを更新する関数
+    /// </summary>
+    private void GetKey()
     {
         _horizontal = Input.GetAxis("Horizontal");
         _vertical = Input.GetAxis("Vertical");
@@ -61,7 +67,7 @@ public class Player : MonoBehaviour
     /// <summary>
     /// プレイヤーの移動関数
     /// </summary>
-    void Move()
+    private void Move()
     {
         Vector3 cameraFroward = Vector3.Scale(Camera.main.transform.forward, new Vector3(1f, 0f, 1f)).normalized;
 
@@ -77,7 +83,7 @@ public class Player : MonoBehaviour
     /// <summary>
     /// ジャンプ関数
     /// </summary>
-    void Jump()
+    private void Jump()
     {
         _rb.velocity = new Vector3(0.0f, _jumpPower, 0.0f);
         _isJump = true;
@@ -86,15 +92,9 @@ public class Player : MonoBehaviour
     /// <summary>
     /// IsJumpの値を変える関数
     /// </summary>
-    bool IsJumpBool(bool isJump)
+    private bool IsJumpBool(bool isJump)
     {
         _isJump = isJump;
         return _isJump;
-    }
-
-    public int PlayerDamage(int playerHp)
-    {
-        _playerHp -= playerHp;
-        return _playerHp;
     }
 }

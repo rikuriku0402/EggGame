@@ -16,23 +16,44 @@ public class FallDamage : MonoBehaviour
     [Header("どのくらいの高さからダメージを受けるか")]
     private float _damageDistance;
 
-    private Player _player;
+    /// <summary>
+    /// Hpを管理するクラス
+    /// </summary>
+    private MyHp _myHp;
 
-    private float _fallenPos;
-
+    /// <summary>
+    /// 今落ちている状態か判定する変数
+    /// </summary>
     private bool _isFall;
 
+    /// <summary>
+    /// 現在のY軸のポジション
+    /// </summary>
+    private float _fallenPos;
+
+    /// <summary>
+    /// 地面との距離を図る変数
+    /// </summary>
     private float _fallenDisrance;
 
     void Start()
     {
-        TryGetComponent(out _player);
+        TryGetComponent(out _myHp);
         _fallenDisrance = 0.0f;
         _fallenPos = transform.position.y;
         _isFall = false;
     }
 
     void Update()
+    {
+        FallingCheck();
+    }
+
+    /// <summary>
+    /// 現在落ちているかチェックする関数
+    /// 一定の高さから落ちたらダメージを受ける
+    /// </summary>
+    private void FallingCheck()
     {
         if (_isFall)
         {
@@ -44,7 +65,7 @@ public class FallDamage : MonoBehaviour
 
                 if (_fallenDisrance >= _damageDistance)
                 {
-                    _player.PlayerDamage(10);
+                    _myHp.PlayerDamage(10);
                 }
 
                 _isFall = false;
