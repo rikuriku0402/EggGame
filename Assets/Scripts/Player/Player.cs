@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx;
+using UniRx.Triggers;
 
 public class Player : MonoBehaviour
 {
@@ -30,21 +32,10 @@ public class Player : MonoBehaviour
     void Start()
     {
         TryGetComponent(out _rb);
-    }
 
-    void Update()
-    {
-        GetKey();
-
-        if (!_isJump && Input.GetKeyDown(KeyCode.Space))
-        {
-            Jump();
-        }
-    }
-
-    private void FixedUpdate()
-    {
-        Move();
+        this.UpdateAsObservable().Subscribe(_ => GetKey());
+        this.UpdateAsObservable().Subscribe(_ => Jump());
+        this.FixedUpdateAsObservable().Subscribe(_ => Move());
     }
 
     private void OnCollisionEnter(Collision collision)
@@ -85,8 +76,11 @@ public class Player : MonoBehaviour
     /// </summary>
     private void Jump()
     {
-        _rb.velocity = new Vector3(0.0f, _jumpPower, 0.0f);
-        _isJump = true;
+        if (!_isJump && Input.GetKeyDown(KeyCode.Space))
+        {
+            _rb.velocity = new Vector3(0.0f, _jumpPower, 0.0f);
+            _isJump = true;
+        }
     }
 
     /// <summary>

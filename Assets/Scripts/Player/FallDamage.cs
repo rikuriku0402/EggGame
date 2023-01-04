@@ -1,6 +1,8 @@
 using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UniRx;
+using UniRx.Triggers;
 
 public class FallDamage : MonoBehaviour
 {
@@ -39,14 +41,12 @@ public class FallDamage : MonoBehaviour
     void Start()
     {
         TryGetComponent(out _myHp);
+
+        this.UpdateAsObservable().Subscribe(_ => FallingCheck());
+
         _fallenDisrance = 0.0f;
         _fallenPos = transform.position.y;
         _isFall = false;
-    }
-
-    void Update()
-    {
-        FallingCheck();
     }
 
     /// <summary>
