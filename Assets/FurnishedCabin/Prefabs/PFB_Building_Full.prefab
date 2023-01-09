@@ -1141,6 +1141,7 @@ GameObject:
   - component: {fileID: 33000011041958744}
   - component: {fileID: 23000012276166624}
   - component: {fileID: 64000012592682692}
+  - component: {fileID: 3473211118408883758}
   m_Layer: 0
   m_Name: PFB_Sofa
   m_TagString: Untagged
@@ -1227,6 +1228,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 11cb8f2b3f982469d93c5d02a9d42f9d, type: 3}
+--- !u!114 &3473211118408883758
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010583632514}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000010585300684
 GameObject:
   m_ObjectHideFlags: 0
@@ -2144,6 +2157,7 @@ GameObject:
   - component: {fileID: 4000012103778340}
   - component: {fileID: 33000010158753572}
   - component: {fileID: 23000010300218838}
+  - component: {fileID: 5532492925897861861}
   m_Layer: 8
   m_Name: BathroomSink_Top
   m_TagString: Untagged
@@ -2216,6 +2230,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &5532492925897861861
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000010757183540}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000010766857948
 GameObject:
   m_ObjectHideFlags: 0
@@ -4018,6 +4044,7 @@ GameObject:
   - component: {fileID: 4000011757875748}
   - component: {fileID: 33000010214026526}
   - component: {fileID: 23000011663963522}
+  - component: {fileID: 4308000971393615106}
   m_Layer: 0
   m_Name: BedBlanket
   m_TagString: Untagged
@@ -4090,6 +4117,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &4308000971393615106
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011220323224}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011250121688
 GameObject:
   m_ObjectHideFlags: 0
@@ -4674,6 +4713,7 @@ GameObject:
   - component: {fileID: 33000011295788244}
   - component: {fileID: 23000011628473008}
   - component: {fileID: 64000012337865882}
+  - component: {fileID: 8521526369955112611}
   m_Layer: 0
   m_Name: PFB_DiningChair (1)
   m_TagString: Untagged
@@ -4760,6 +4800,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cfcf075e496092c489e38a82a64dd637, type: 3}
+--- !u!114 &8521526369955112611
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011422257482}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011454848040
 GameObject:
   m_ObjectHideFlags: 0
@@ -4772,6 +4824,7 @@ GameObject:
   - component: {fileID: 33000013296224088}
   - component: {fileID: 23000012819998324}
   - component: {fileID: 64000013189994642}
+  - component: {fileID: 1439770470956992863}
   m_Layer: 0
   m_Name: PFB_Fridge
   m_TagString: Untagged
@@ -4858,6 +4911,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: c4de274e95ea349928ad1e2d88f630d2, type: 3}
+--- !u!114 &1439770470956992863
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011454848040}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011560320344
 GameObject:
   m_ObjectHideFlags: 0
@@ -4906,6 +4971,7 @@ GameObject:
   - component: {fileID: 33000011755573240}
   - component: {fileID: 23000010838783530}
   - component: {fileID: 64000012216465390}
+  - component: {fileID: 4793573299468905715}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -4992,6 +5058,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: 045a04ff344c14574b5a7bfd7a6e86cb, type: 3}
+--- !u!114 &4793573299468905715
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011595248958}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011596266412
 GameObject:
   m_ObjectHideFlags: 0
@@ -5087,6 +5165,7 @@ GameObject:
   - component: {fileID: 33000012088143228}
   - component: {fileID: 23000012321732318}
   - component: {fileID: 64000013659240738}
+  - component: {fileID: 6521906423690536452}
   m_Layer: 0
   m_Name: PFB_DiningChair (2)
   m_TagString: Untagged
@@ -5173,6 +5252,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cfcf075e496092c489e38a82a64dd637, type: 3}
+--- !u!114 &6521906423690536452
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000011650155096}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000011663222344
 GameObject:
   m_ObjectHideFlags: 0
@@ -7067,6 +7158,7 @@ GameObject:
   - component: {fileID: 33000012894771972}
   - component: {fileID: 23000013729428524}
   - component: {fileID: 64000012848385396}
+  - component: {fileID: 1394832085007838605}
   m_Layer: 0
   m_Name: PFB_CoffeeTable
   m_TagString: Untagged
@@ -7153,6 +7245,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: 87dbd671cf01c4a2092308da3db7c073, type: 3}
+--- !u!114 &1394832085007838605
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012403556238}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012407421848
 GameObject:
   m_ObjectHideFlags: 0
@@ -7165,6 +7269,7 @@ GameObject:
   - component: {fileID: 33000012092905122}
   - component: {fileID: 23000013902638878}
   - component: {fileID: 64000012525447156}
+  - component: {fileID: 1860023419359304008}
   m_Layer: 0
   m_Name: tvStandBase
   m_TagString: Untagged
@@ -7251,6 +7356,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 49a6824fe442d4dbbbf83484cbb57db1, type: 3}
+--- !u!114 &1860023419359304008
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012407421848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012504320332
 GameObject:
   m_ObjectHideFlags: 0
@@ -7725,6 +7842,7 @@ GameObject:
   - component: {fileID: 4000012935993188}
   - component: {fileID: 33000011260066746}
   - component: {fileID: 23000011635096662}
+  - component: {fileID: 8832757206928627514}
   m_Layer: 0
   m_Name: showerBase
   m_TagString: Untagged
@@ -7797,6 +7915,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &8832757206928627514
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012541007060}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012541020350
 GameObject:
   m_ObjectHideFlags: 0
@@ -7809,6 +7939,7 @@ GameObject:
   - component: {fileID: 33000012761334370}
   - component: {fileID: 23000011856917980}
   - component: {fileID: 64000011479689524}
+  - component: {fileID: 5563863554564004227}
   m_Layer: 0
   m_Name: PFB_DiningChair
   m_TagString: Untagged
@@ -7895,6 +8026,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cfcf075e496092c489e38a82a64dd637, type: 3}
+--- !u!114 &5563863554564004227
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012541020350}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012579780030
 GameObject:
   m_ObjectHideFlags: 0
@@ -8401,6 +8544,7 @@ GameObject:
   - component: {fileID: 4000013988934476}
   - component: {fileID: 33000013805372552}
   - component: {fileID: 23000011758082874}
+  - component: {fileID: 1200934249127151636}
   m_Layer: 0
   m_Name: BedPillow02
   m_TagString: Untagged
@@ -8473,6 +8617,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &1200934249127151636
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012761254108}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012770052452
 GameObject:
   m_ObjectHideFlags: 0
@@ -8485,6 +8641,7 @@ GameObject:
   - component: {fileID: 33000011343059302}
   - component: {fileID: 23000010722853148}
   - component: {fileID: 64000013693881850}
+  - component: {fileID: 1734326210318210208}
   m_Layer: 0
   m_Name: PFB_DiningChair (3)
   m_TagString: Untagged
@@ -8571,6 +8728,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: cfcf075e496092c489e38a82a64dd637, type: 3}
+--- !u!114 &1734326210318210208
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012770052452}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012836213406
 GameObject:
   m_ObjectHideFlags: 0
@@ -8863,6 +9032,7 @@ GameObject:
   - component: {fileID: 33000012374925704}
   - component: {fileID: 23000011239616524}
   - component: {fileID: 64000011393011632}
+  - component: {fileID: 1775285696}
   m_Layer: 0
   m_Name: PFB_Stove
   m_TagString: Untagged
@@ -8949,6 +9119,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 4f415ecbe66194046bbee713e3cf231c, type: 3}
+--- !u!114 &1775285696
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000012894418986}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000012952637050
 GameObject:
   m_ObjectHideFlags: 0
@@ -9149,6 +9331,7 @@ GameObject:
   - component: {fileID: 4000013443176096}
   - component: {fileID: 33000010276992946}
   - component: {fileID: 23000012327107108}
+  - component: {fileID: 2285355967494284867}
   m_Layer: 0
   m_Name: BedPillow01
   m_TagString: Untagged
@@ -9221,6 +9404,18 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
+--- !u!114 &2285355967494284867
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013081261530}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013081966334
 GameObject:
   m_ObjectHideFlags: 0
@@ -9233,6 +9428,7 @@ GameObject:
   - component: {fileID: 33000013349564584}
   - component: {fileID: 23000013684522382}
   - component: {fileID: 64000010259568034}
+  - component: {fileID: 1926891183}
   m_Layer: 0
   m_Name: KitchenBench_base
   m_TagString: Untagged
@@ -9319,6 +9515,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300042, guid: 14cf328cd0a9046e5a177954438c6a56, type: 3}
+--- !u!114 &1926891183
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013081966334}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013091426908
 GameObject:
   m_ObjectHideFlags: 0
@@ -9722,6 +9930,7 @@ GameObject:
   - component: {fileID: 33000011486128494}
   - component: {fileID: 23000010930693426}
   - component: {fileID: 64000013261019198}
+  - component: {fileID: 1828019619236616772}
   m_Layer: 0
   m_Name: PFB_DiningTable
   m_TagString: Untagged
@@ -9808,6 +10017,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: d0c5e2ba5fba04868b0cd879c3c5dc9a, type: 3}
+--- !u!114 &1828019619236616772
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013266906370}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013392452400
 GameObject:
   m_ObjectHideFlags: 0
@@ -10122,6 +10343,7 @@ GameObject:
   - component: {fileID: 33000013331450702}
   - component: {fileID: 23000014228264892}
   - component: {fileID: 64000011847081684}
+  - component: {fileID: 6193509494104269615}
   m_Layer: 0
   m_Name: PFB_BedroomSofa
   m_TagString: Untagged
@@ -10208,6 +10430,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: aa28c890d9e8b5e449d701805e420020, type: 3}
+--- !u!114 &6193509494104269615
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013502178602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013520975216
 GameObject:
   m_ObjectHideFlags: 0
@@ -10738,6 +10972,7 @@ GameObject:
   - component: {fileID: 33000011706012064}
   - component: {fileID: 23000013161809090}
   - component: {fileID: 64000011728177262}
+  - component: {fileID: 8548484981456032592}
   m_Layer: 0
   m_Name: PFB_SofaSmall
   m_TagString: Untagged
@@ -10824,6 +11059,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: e760d65fe79664bb3b74548e3f010844, type: 3}
+--- !u!114 &8548484981456032592
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013634868504}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013750720512
 GameObject:
   m_ObjectHideFlags: 0
@@ -10934,6 +11181,7 @@ GameObject:
   - component: {fileID: 33000011132248076}
   - component: {fileID: 23000013229770930}
   - component: {fileID: 64000011513321830}
+  - component: {fileID: 325074148397106498}
   m_Layer: 0
   m_Name: chestOfDraws_Base
   m_TagString: Untagged
@@ -11020,6 +11268,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300032, guid: e41b6552046814b19a9905c4f669429b, type: 3}
+--- !u!114 &325074148397106498
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013774284538}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000013832043646
 GameObject:
   m_ObjectHideFlags: 0
@@ -11492,6 +11752,7 @@ GameObject:
   - component: {fileID: 33000013337102082}
   - component: {fileID: 23000012287703958}
   - component: {fileID: 64000011648956980}
+  - component: {fileID: 3713522204600121608}
   m_Layer: 0
   m_Name: PFB_Toilet
   m_TagString: Untagged
@@ -11578,6 +11839,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300002, guid: e0d9e36ca40e94b33a5c34858eeb326d, type: 3}
+--- !u!114 &3713522204600121608
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000013955614470}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000014026381822
 GameObject:
   m_ObjectHideFlags: 0
@@ -11769,6 +12042,7 @@ GameObject:
   - component: {fileID: 33000013158969884}
   - component: {fileID: 23000013468698996}
   - component: {fileID: 64000011490866334}
+  - component: {fileID: 2602179455017777401}
   m_Layer: 0
   m_Name: Base
   m_TagString: Untagged
@@ -11855,6 +12129,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300012, guid: 045a04ff344c14574b5a7bfd7a6e86cb, type: 3}
+--- !u!114 &2602179455017777401
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014116700928}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000014167579824
 GameObject:
   m_ObjectHideFlags: 0
@@ -11867,6 +12153,7 @@ GameObject:
   - component: {fileID: 33000011360253514}
   - component: {fileID: 23000010988374996}
   - component: {fileID: 64000010068337612}
+  - component: {fileID: 585429911368666408}
   m_Layer: 8
   m_Name: Base
   m_TagString: Untagged
@@ -11953,6 +12240,18 @@ MeshCollider:
   m_Convex: 0
   m_CookingOptions: 30
   m_Mesh: {fileID: 4300000, guid: 1a6cb6ae194964e949def57e23f52428, type: 3}
+--- !u!114 &585429911368666408
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1000014167579824}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 39b83de0ce9fa404a97bac2d6b422722, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1000014274065948
 GameObject:
   m_ObjectHideFlags: 0
