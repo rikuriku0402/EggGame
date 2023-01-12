@@ -1,6 +1,6 @@
 using UnityEngine;
 
-public class Ground : MonoBehaviour, IJumpable
+public class Furniture : MonoBehaviour, IJumpable
 {
     public void Jump(bool isJump){; }
 }

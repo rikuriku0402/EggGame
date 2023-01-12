@@ -18,6 +18,10 @@ public class FallDamage : MonoBehaviour
     [Header("どのくらいの高さからダメージを受けるか")]
     private float _damageDistance;
 
+    [SerializeField]
+    [Header("ダメージ数")]
+    int _damage;
+
     /// <summary>
     /// Hpを管理するクラス
     /// </summary>
@@ -49,6 +53,14 @@ public class FallDamage : MonoBehaviour
         _isFall = false;
     }
 
+    private void OnCollisionStay(Collision collision)
+    {
+        if (collision.gameObject.TryGetComponent(out IFloor floor))
+        {
+            _myHp.PlayerDamage(_damage);
+        }
+    }
+
     /// <summary>
     /// 現在落ちているかチェックする関数
     /// 一定の高さから落ちたらダメージを受ける
@@ -65,7 +77,7 @@ public class FallDamage : MonoBehaviour
 
                 if (_fallenDisrance >= _damageDistance)
                 {
-                    _myHp.PlayerDamage(10);
+                    _myHp.PlayerDamage(_damage);
                 }
 
                 _isFall = false;
